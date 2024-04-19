@@ -1,0 +1,13 @@
+USE testdb;
+GO
+
+CREATE TABLE CUSTOMER
+(
+ID INT IDENTITY PRIMARY KEY,
+First_Name varchar(20),
+Last_Name varchar(20),
+email varchar(30),
+Address varchar(100),
+);
+
+GO
