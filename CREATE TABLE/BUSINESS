@@ -1,0 +1,18 @@
+USE testdb;
+GO
+
+CREATE TABLE BUSINESS
+(
+ID INT IDENTITY PRIMARY KEY,
+Company_Name varchar(100),
+Websites varchar(20),
+First_Name varchar(20),
+Last_Name varchar(20),
+Job_Title varchar(30),
+email varchar(30),
+Phone_Number INT,
+Country varchar(30),
+Address varchar(100)
+);
+
+GO
